@@ -1,0 +1,28 @@
+step 1: Open Tableau app
+step 2: Under "To a File" select "Text File" > select the "Adult dataset", click open > Infront of "Connections", select "Add" >  Under "To a File" select "Text File" > select and open the "Iris dataset" 
+
+step 3: open sheet 1 (from the bottom, infront of data source, red clickable)
+
+	Sheet 1: (Name: 1D)
+		From IRIS dataset
+		Columns: Petal Length
+
+U can add new sheet by clicking "+" infront of sheet 1
+
+	Sheet 2: (Name: 2D)
+		from adult dataset
+		Columns: Relationship
+		Rows: Age
+		Marks: Gander
+
+	Sheet 3: (Name: 3D)
+		from adult dataset
+		Columns: Hours-per-week 
+		Rows: Age
+		Marks: Gander, Income, Education
+
+	Sheet 4: (Name: Multidimenstional)
+		from adult dataset
+		Columns: Income, Race, Occupation
+		Rows: Age
+		Marks: Occupation
